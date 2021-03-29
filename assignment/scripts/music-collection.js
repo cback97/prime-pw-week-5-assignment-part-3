@@ -4,8 +4,8 @@ let collection = [];
 function addToCollection(title, artist, yearPublished) {
     title = {
         album: title,
-        creator: artist,
-        birth: yearPublished
+        by: artist,
+        publishedIn: yearPublished
     }
     collection.push(title);
     return console.log(title);
@@ -21,9 +21,10 @@ addToCollection('The Album About Nothing', 'Wale', '2015')
 console.log(collection)
 
 function showCollection(array) {
+    console.log(array.length);
     for (let i = 0; i < array.length; i++) {
-        console.log(array.length);
-        
+       console.log(array[i])
+
     }
 }
 showCollection(collection)
