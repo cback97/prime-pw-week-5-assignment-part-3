@@ -17,3 +17,5 @@ addToCollection('Man On The Moon', 'Kid Cudi', '2009')
 addToCollection('Forrest Hills Drive', 'J. Cole', '2014')
 addToCollection('OneX', 'Three Days Grace', '2006')
 addToCollection('The Album About Nothing', 'Wale', '2015')
+
+console.log(collection)
