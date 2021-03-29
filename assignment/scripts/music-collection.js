@@ -12,3 +12,8 @@ function addToCollection(title, artist, yearPublished) {
 }
 
 addToCollection('Myself', 'Nav', '2017')
+addToCollection('Nothing Was The Same', 'Drake', '2013')
+addToCollection('Man On The Moon', 'Kid Cudi', '2009')
+addToCollection('Forrest Hills Drive', 'J. Cole', '2014')
+addToCollection('OneX', 'Three Days Grace', '2006')
+addToCollection('The Album About Nothing', 'Wale', '2015')
