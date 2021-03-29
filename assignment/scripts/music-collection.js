@@ -23,16 +23,15 @@ console.log(collection)
 function showCollection(array) {
     console.log(array.length);
     for (let i = 0; i < array.length; i++) {
-       console.log(array[i])
+        console.log(array[i])
 
     }
 }
 showCollection(collection)
 
+
 function findByArtist(artist) {
-    let searchedArtists = [];
     for (let i = 0; i < collection.length; i++) {
-        
         
     }
 }
