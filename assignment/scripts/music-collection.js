@@ -19,3 +19,10 @@ addToCollection('OneX', 'Three Days Grace', '2006')
 addToCollection('The Album About Nothing', 'Wale', '2015')
 
 console.log(collection)
+
+function showCollection(array) {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array.length -1);
+        
+    }
+}
