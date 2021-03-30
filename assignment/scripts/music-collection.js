@@ -31,6 +31,7 @@ showCollection(collection)
 
 
 function findByArtist(artist) {
+    let searchedArtists = [];
     for (let i = 0; i < collection.length; i++) {
         
     }
