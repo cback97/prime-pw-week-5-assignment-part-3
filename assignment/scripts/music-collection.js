@@ -33,6 +33,7 @@ showCollection(collection)
 
 
 function findByArtist(artist) {
+    console.log('We are in findByArtist:')
     let searchedArtists = [];
     for (let i = 0; i < collection.length; i++) {
         if (collection[i].by === artist) {
