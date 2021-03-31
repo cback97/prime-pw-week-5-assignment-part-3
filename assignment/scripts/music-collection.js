@@ -33,19 +33,18 @@ showCollection(collection)
 
 
 function findByArtist(artist) {
-    console.log('We are in findByArtist:')
+    // console.log('We are in findByArtist:')
     let searchedArtists = [];
     for (let i = 0; i < collection.length; i++) {
         if (collection[i].by === artist) {
             searchedArtists.push(artist)
-            return console.log(searchedArtists);
+            return console.log('Artist found', searchedArtists);
         }
 
     }
-    return searchedArtists = [];
+    return console.log('Artist not found', searchedArtists = []);
 }
-console.log(findByArtist('Drake'));
-console.log(findByArtist('Wale'));
-console.log(findByArtist('Nav'));
-console.log(findByArtist('Kevin Bacon'));
-
+findByArtist('Drake')
+findByArtist('Wale')
+findByArtist('Nav')
+findByArtist('Kevin Bacon')
