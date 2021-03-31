@@ -40,6 +40,12 @@ function findByArtist(artist) {
             searchedArtists.push(artist)
             return console.log(searchedArtists);
         }
+
     }
+    return searchedArtists = [];
 }
 console.log(findByArtist('Drake'));
+console.log(findByArtist('Wale'));
+console.log(findByArtist('Nav'));
+console.log(findByArtist('Kevin Bacon'));
+
