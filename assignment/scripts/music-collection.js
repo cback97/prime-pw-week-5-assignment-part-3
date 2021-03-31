@@ -35,7 +35,7 @@ showCollection(collection)
 function findByArtist(artist) {
     let searchedArtists = [];
     for (let i = 0; i < collection.length; i++) {
-        if (collection[i] === artist) {
+        if (collection[i].by === artist) {
             searchedArtists.push(artist)
             return console.log(searchedArtists);
         }
