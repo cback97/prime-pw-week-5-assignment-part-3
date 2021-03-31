@@ -2,6 +2,7 @@ console.log('***** Music Collection *****')
 let collection = [];
 
 function addToCollection(title, artist, yearPublished) {
+    console.log('We are in addToCollection:');
     title = {
         album: title,
         by: artist,
@@ -21,6 +22,7 @@ addToCollection('The Album About Nothing', 'Wale', '2015')
 console.log(collection)
 
 function showCollection(array) {
+    console.log('We are in showCollection:')
     console.log(array.length);
     for (let i = 0; i < array.length; i++) {
         console.log(array[i])
@@ -35,6 +37,8 @@ function findByArtist(artist) {
     for (let i = 0; i < collection.length; i++) {
         if (collection[i] === artist) {
             searchedArtists.push(artist)
+            return console.log(searchedArtists);
         }
     }
 }
+console.log(findByArtist('Drake'));
