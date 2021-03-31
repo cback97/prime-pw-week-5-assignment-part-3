@@ -6,7 +6,7 @@ function addToCollection(title, artist, yearPublished) {
     title = {
         album: title,
         by: artist,
-        publishedIn: yearPublished
+        released: yearPublished
     }
     collection.push(title);
     return console.log(title);
