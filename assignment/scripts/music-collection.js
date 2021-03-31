@@ -2,14 +2,14 @@ console.log('***** Music Collection *****')
 let collection = [];
 
 function addToCollection(title, artist, yearPublished) {
-    console.log('We are in addToCollection:');
+    
     title = {
         album: title,
         by: artist,
         released: yearPublished
     }
     collection.push(title);
-    return console.log(title);
+    return (title)
 }
 
 addToCollection('Myself', 'Nav', '2017')
@@ -44,7 +44,9 @@ function findByArtist(artist) {
     }
     return console.log('Artist not found', searchedArtists = []);
 }
+//Testing Matches in Collection
 findByArtist('Drake')
 findByArtist('Wale')
 findByArtist('Nav')
+//Testing Non-Match in Collection
 findByArtist('Kevin Bacon')
